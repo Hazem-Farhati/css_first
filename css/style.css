@@ -338,7 +338,7 @@ margin: 1%;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 1000px;
+  margin: 11px 1024px;
   cursor: pointer;
   border-radius:  20px;
 
@@ -381,3 +381,74 @@ hr.new1 {
   .footer_text{
       text-align: center;
   }
+
+  /*career page */
+  /*background */
+.career_back{
+    width: 100%;
+    height: 1000px;
+background :url(/image/careerBack.jpg) no-repeat 50% 50%/cover;
+position: static;
+
+}
+
+/*end background */ 
+
+/*box career */ 
+.career_back .box_carrer{
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 650px;
+    border: none;
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    
+}
+/*career title */
+
+h2{
+    text-align: center;
+    color: #00b39b;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+}
+
+
+/*end career title */ 
+
+/*career paragraphe */
+
+p{
+    text-align: center;
+    color: #747474;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 90px;
+}
+
+
+
+/*end career paragraphe */
+
+/*CAREER BUTTON*/
+.button_career{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 90px;
+    cursor: pointer;
+    background-color: #008CBA; /* Blue */
+    border-radius: 10px;
+
+
+}
+/*end CAREER BUTTON*/
+
+
+/*end box carrer */ 
+
+  /*end career page */ 
